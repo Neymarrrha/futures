@@ -1,0 +1,95 @@
+*{margin:0px;padding:0px} 
+body{
+    background-color: #545454;
+    color: aliceblue;
+    font-family:sans-serif;
+}
+
+.boldWord{
+    font-size: 20px;
+    
+}
+.part{
+    width: 49%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px
+}
+.shortHr{
+    width:90%;
+    margin-left: 20px;
+}
+.selected{
+    background-color:#AAAAAA;
+    border:0px;
+}
+.smallPart1{
+    width:50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.smallPart2{
+    width:80%;
+    text-align: center;
+    margin-left: 11%;
+}
+.changeBtn{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.inputHere{
+    height: 30px;
+    width: 80px;
+    float: left;
+    color: black;
+    text-align: center;
+}
+.smallPart3{
+    margin-left: 17%;
+}
+.smallPart5,.smallPart6{
+    width:43%;
+    height: 90px;
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+}
+.smallPart5{
+    background-color: #69b462;
+    margin-left: 20px;
+    margin-right: 6px;
+    border-radius:15px;       
+}
+.smallPart6{
+    background-color:#d65b54;
+    margin-left: 6px;
+    margin-right: 20px;
+    border-radius:15px;       
+}
+.bigWord{
+    font-size: 150%;
+    margin-top: -7px;
+    margin-bottom: 0;
+}
+#yellow{
+    width: 130px;
+    right:40px;
+    height: 25px;
+    background-color: #dda655;
+    text-align: center;
+    border-radius:5px;  
+    margin-top: 10px;
+    margin-left: 60%;
+}
+
+#red{
+    width: 100px;
+    right:40px;
+    height: 25px;
+    background-color: #d65b54;
+    text-align: center;
+    border-radius:5px;  
+    margin-top: 10px;
+    margin-left: 38%;
+}

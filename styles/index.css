@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    font-family:sans-serif;
+}
+#mainTable{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+#tHead{
+    background-color: rgb(104, 102, 102);
+}

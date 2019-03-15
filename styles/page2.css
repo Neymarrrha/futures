@@ -1,0 +1,46 @@
+*{margin:0px;padding:0px} 
+body{
+    background-color: #7F7F7F;
+    color: aliceblue;
+    font-family:sans-serif;
+}
+
+#head{
+    text-align: center;
+    margin: 10px;
+}
+.selected{
+    background-color:#AAAAAA;
+    border:0px;
+}
+.btn1,.btn2{
+    width:40%;
+    border: 0px;
+    height: 40px;
+   
+    text-align: center;
+    float:left; 
+}
+#word{
+    background-color:black; 
+    width:20%;
+    text-align: center;
+    height: 40px;
+    float:left; 
+}
+#pox{
+    display: inline-block; /*一定要将div设置为inline-block*/
+    vertical-align: middle;/*设置该元素在父元素中的位置*/
+    margin-top: 10px;
+}
+.btn1{
+    background-color: #ff2a21;
+}
+.btn2{
+    background-color:#69b462;
+}
+
+#mainTable{
+    border-top: 0px;
+}
+

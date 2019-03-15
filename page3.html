@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="styles/page3.css" rel="stylesheet">
+    <script src="scripts/page3.js"></script>
+</head>
+
+<body>
+    <div style="margin-left:10px;">
+        <p style="font-size:180%; margin-top:20px;margin-bottom: -5px;">合约代码：</p>
+        <p style="font-size:130%; margin-bottom: -5px;">TA983543A67284</p>
+    </div>
+    <hr>
+    <div>
+        <div class="part">
+            <p style="color:#878c9c;">挂钩标的</p>
+            <p id="hook" class="boldWord"></p>
+        </div>
+        <div class="part">
+            <p style="color:#878c9c;">到期日期</p>
+            <p class="boldWord">2018-12-28</p>
+        </div>
+    </div>
+    <hr class="shortHr">
+    <div style="margin-top:-10px">
+        <div class="part">
+            <p style="color:#878c9c;">期权类型</p>
+            <select class="form-control  selected smallPart1">
+                <option selected="selected">欧式看涨</option>
+                <option>美式看涨</option>
+                <option>欧式看跌</option>
+                <option>欧式看跌</option>
+            </select>
+        </div>
+        <div class="part">
+            <p style="color:#878c9c;">标的价格</p>
+            <section class="form-control smallPart2">
+                <option selected="selected">5846.00</option>
+            </section>
+        </div>
+    </div>
+    <hr class="shortHr">
+    <div style="margin-top:-10px">
+        <div class="part">
+            <p style="color:#878c9c;">执行价</p>
+            <div class="smallPart3">
+                <img src="img/dec.png" class="changeBtn" id="btn1">
+                <input type="text" class="inputHere" value="6410" id="price">
+                <img src="img/add.png" class="changeBtn" id="btn2">
+            </div>
+
+        </div>
+        <div class="part">
+            <p style="color:#878c9c;">交易单位 吨</p>
+            <div class="smallPart3">
+                <img src="img/dec.png" class="changeBtn" id="btn3">
+                <input type="text" class="inputHere" value="50" id="ton">
+                <img src="img/add.png" class="changeBtn" id="btn4">
+            </div>
+        </div>
+    </div>
+    <hr class="shortHr">
+    <div style="margin-top:-10px; height: 100px;">
+        <div class="smallPart5">
+            <p style="margin-top:5px;">16.10|0.27%</p>
+            <p class="bigWord">卖出</p>
+            <p>Vol:23.46%</p>
+        </div>
+        <div class="smallPart6">
+            <p style="margin-top:5px;">33.06|0.56%</p>
+            <p class="bigWord">买入</p>
+            <p>Vol:29.20%</p>
+        </div>
+    </div>
+    <div>
+        <div id="yellow">
+            <p style="margin-top:-8px;">权利金：1753.00</p>
+        </div>
+        <div id="red">
+            <p style="margin-top:-8px;">数据仅供参考</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
